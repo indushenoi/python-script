@@ -1,0 +1,22 @@
+"""Program on array operations"""
+import array as arr
+a=arr.array( 'd' , [1.1 , 2.1 ,3.1] )
+print(a)
+print("second element",a[1])
+print("length",len(a))
+a.append(3.4)
+print(a)
+a.extend([4.5,6.3,6.8])
+print(a)
+a.insert(2,3.8)
+print(a)
+b=arr.array('d',[3.7,8.6])
+c=arr.array('d')
+c=a+b
+print("Array c = ",c)
+print(a.pop())
+print(a.pop(3))
+print(a)
+a.remove(1.1)
+print(a)
+print(a[0:3])
